@@ -1,0 +1,5 @@
+try:
+    Miles = int(input('An integer number of miles: '))
+    print(Miles ,'Miles in Km:', int(Miles*1.6))
+except:
+    print('Please enter an integer')
